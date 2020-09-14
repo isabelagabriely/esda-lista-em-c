@@ -162,5 +162,8 @@ int main () {
     printf ("tamanho da lista atualizada = %d\n", tamanhoLista (&l));
     printf ("LISTA ATUALIZADA \n");
     exibirLista (&l);
+    printf ("\n\n");
+    reinicializarLista (&l);
+    exibirLista (&l);
     return 0;
 }
